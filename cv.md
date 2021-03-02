@@ -28,6 +28,7 @@ Samara
  - Bootstrap
  - elementUI
  - materialize
+ - figma
 
 [github](https://github.com/SteveGerr)
 
