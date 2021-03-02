@@ -36,6 +36,7 @@ Samara
 - GloAcademy. JavaScript base course
 - Udemy. JavaScript + VUE.js + VUEX
 - YouTube
+- habr
 
   
 **English**: A1
