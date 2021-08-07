@@ -1,27 +1,29 @@
 # Shunyaev Ivan Vasilievich
-### Country:
-Russian Federation
-### City:
-Samara
-### phone: 
-+79198080841
-### Date: 
-08.02.1984
+<b>Country:</b> Russian Federation
+<br>
+<b>City:</b> Samara
+<br>
+<b> phone:</b> +79198080841
+<br>
+<b>Date:</b> 08.02.1984
 
 
 ### About me
 
-- **Junior front-end developer**:
+- **front-end developer**:
   
   from 09.2019  
-  Company: Neosoft(online trading)
+  Company: Neosoft(e-commerce)
   
 **Skills**:
  
- - JS
+ - JS/es6+
  - VUE.js
- - TypeScript(base)
+ - react
+ - vuex/redux
+ - TypeScript
  - SCSS/SASS
+ - flex/grid
  - Git
  - team development
  - BEM
@@ -29,6 +31,8 @@ Samara
  - elementUI
  - materialize
  - figma
+ - email development
+ - postman
 
 [github](https://github.com/SteveGerr)
 
@@ -40,4 +44,4 @@ Samara
 - habr
 
   
-**English**: A1
+**English**: A2
