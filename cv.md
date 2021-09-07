@@ -1,3 +1,5 @@
+![](https://github.com/SteveGerr/rsschool-cv/blob/gh-pages/CV-fotot.JPG)
+
 # Shunyaev Ivan Vasilievich
 <b>Country:</b> Russian Federation
 <br>
