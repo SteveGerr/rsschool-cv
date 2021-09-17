@@ -71,6 +71,10 @@
     flex-direction: column;
 }
 
+.cv__contacts ul {
+    list-style-type: none;
+}
+
 .cv__contacts-address span {
     margin-right: 10px;
     color: floralwhite;
