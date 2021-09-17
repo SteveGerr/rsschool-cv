@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>Rsschool-cv-html</title>
+    <meta name="description" content="Cv page for Rsschool course">
+</head>
+<body>
+    <div class="cv__container">
+        <div class="cv__left-col">
+            <header>
+                <div class="cv__photo-wrap">
+                    <img class="cv__photo" src="./src/pictures/images/CV-fotot.JPG" alt="photo student">
+                </div>
+                <p class="cv__name">
+                    Ivan Shunyaev
+                </p>
+            </header>
+            <main>
+                <section class="cv__contacts">
+                    <h4>Contacts</h4>
+                    <ul>
+                        <li class="cv__contacts-row cv__contacts-address">
+                            <span>Russian Federation</span>
+                            <span>Samara</span>
+                        </li>
+                        <li class="cv__contacts-row cv__contacts-phone">
+                            <a href="tel:+79198080841">+79198080841</a>
+                        </li>
+                        <li class="cv__contacts-row cv__contacts-mail">
+                            <a href="mailto:ivan.schunyaev@gmail.com">ivan.schunyaev@gmail.com</a>
+                        </li>
+                        <li class="cv__contacts-row cv__contacts-gh">
+                            <a href="https://github.com/SteveGerr" target="_blank" rel="noopener noreferrer">Github</a>
+                        </li>
+                        <li class="cv__contacts-row cv__contacts-in">
+                            <a href="https://www.linkedin.com/in/ivan-schunyaev/?locale=en_US" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="cv__contacts-row cv__skills">
+                    <h4>Skills</h4>
+                    <ul>
+                        <li>JS/TS</li>
+                        <li>VUE</li>
+                        <li>REACT</li>
+                        <li>VUEX</li>
+                        <li>REDUX</li>
+                        <li>JSX</li>
+                        <li>HTML</li>
+                        <li>SCSS/CSS</li>
+                        <li>BOOTSTRAP</li>
+                        <li>FIGMA</li>
+                        <li>POSTMAN</li>
+                    </ul>
+                </section>
+                <section class="cv__contacts-row cv__languages">
+                    <h4>Languages</h4>
+                    <ul>
+                        <li>Russian</li>
+                        <li>English - A2</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+        <div class="cv__right-col">
+            <section class="cv__about">
+                <h4>About me</h4>
+                <p>
+                    I started with the layout. Than I wanted to more and I started to learn JS,
+                    finished js course and got an first offer by current IT company. One year I
+                    jobbed only html/css developer. After that, I fixed the bugs and studied vue js.
+                    And became a front-end developer.
+                </p>
+            </section>
+            <section class="cv__education">
+                <h4>Education</h4>
+                <p>Russian trade and economic universary - 2010</p>
+            </section>
+            <section class="cv__experience">
+                <h4>Experience</h4>
+                <p>September 2019 - till now</p>
+                <p>NeoSoft</p>
+                <p>Front-End developer</p>
+                <ul>
+                    <li>Writing components for VUE.js + TypeScript</li>
+                    <li>QA</li>
+                    <li>Email coding</li>
+                    <li>Development of administrative panels</li>
+                    <li>HTML, SCSS page develop</li>
+                    <li>Application architecture development</li>
+                    <li>Interaction with the marketing department</li>
+                </ul>
+            </section>
+            <section class="cv__courses">
+                <h4>Courses</h4>
+                <div class="cv__courses-course">
+                    <p>UDEMY</p>
+                    <p>Udemy, Front-end development(JS + VUE.js)</p>
+                </div>
+                <div class="cv__courses-course">
+                    <p>Академия вёрстки</p>
+                    <p>Академия вёрстки, JavaScript</p>
+                </div>
+            </section>
+        </div>
+        <section class="cv__code-example">
+            <h4>Code-example</h4>
+            <p>
+                An isogram is a word that has no repeating letters,
+                consecutive or non-consecutive. Implement a function
+                that determines whether a string that contains only
+                letters is an isogram. Assume the empty string is an
+                isogram. Ignore letter case.
+            </p>
+            <pre>
+                <code>
+                    <span class="cv__code-example_blue">function</span> isIsogram(str){
+                        //...
+                        <span class="cv__code-example_blue">let</span> lcs = str.toLowerCase();
+                        <span class="cv__code-example_blue">let</span> arrStr = lcs.split('')
+                        arrStr.sort()
+
+
+                        <span class="cv__code-example_lilac">for</span> (<span class="cv__code-example_blue">let</span> i = 0; i <span>&lt;</span>arrStr.length; i++) {
+                            <span class="cv__code-example_lilac">if</span> (arrStr[i] === arrStr[i + 1]) {
+                                <span class="cv__code-example_lilac">return</span> <span class="cv__code-example_blue">false</span>;
+                            }
+                        }
+                        <span class="cv__code-example_lilac">return</span> <span class="cv__code-example_blue">true</span>
+
+                      }
+                </code>
+            </pre>
+        </section>
+
+        <footer>
+            <a href="https://rs.school/js/" class="cv__rsschool-link"><img width="80" height="30" src="./src/pictures/icons/rs_school_js.svg" alt="Rsschool icon"></a>
+            <p title="September 2021">2021</p>
+            <a href="https://github.com/SteveGerr" class="cv__gh-link"><img width="30" height="30" src="./src/pictures/icons/github.svg" alt=""></a>
+        </footer>
+    </div>
+</body>
+</html>
