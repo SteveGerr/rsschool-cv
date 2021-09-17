@@ -71,6 +71,10 @@
     flex-direction: column;
 }
 
+.cv__contacts ul {
+    list-style-type: none;
+}
+
 .cv__contacts-address span {
     margin-right: 10px;
     color: floralwhite;
@@ -148,4 +152,33 @@ footer p {
     font-size: 30px;
     font-weight: 600;
     color: #4c6071;
+}
+
+@media (max-width: 767px) {
+    .cv__container {
+        grid-template-columns: 1fr;
+    }
+    .cv__left-col {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .cv__right-col {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        padding: 20px;
+    }
+}
+@media (max-width: 420px) {
+    code {
+        font-size: 12px;
+    }
+}
+@media (max-width: 340px) {
+    code {
+        font-size: 11px;
+    }
 }
