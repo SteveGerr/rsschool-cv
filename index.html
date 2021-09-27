@@ -22,22 +22,24 @@
             <main>
                 <section class="cv__contacts">
                     <h4>Contacts</h4>
-                    <div class="cv__contacts-row cv__contacts-address">
-                        <span>Russian Federation</span>
-                        <span>Samara</span>
-                    </div>
-                    <div class="cv__contacts-row cv__contacts-phone">
-                        <a href="tel:+79198080841">+79198080841</a>
-                    </div>
-                    <div class="cv__contacts-row cv__contacts-mail">
-                        <a href="mailto:ivan.schunyaev@gmail.com">ivan.schunyaev@gmail.com</a>
-                    </div>
-                    <div class="cv__contacts-row cv__contacts-gh">
-                        <a href="https://github.com/SteveGerr" target="_blank" rel="noopener noreferrer">Github</a>
-                    </div>
-                    <div class="cv__contacts-row cv__contacts-in">
-                        <a href="https://www.linkedin.com/in/ivan-schunyaev/?locale=en_US" target="_blank" rel="noopener noreferrer">Linkedin</a>
-                    </div>
+                    <ul>
+                        <li class="cv__contacts-row cv__contacts-address">
+                            <span>Russian Federation</span>
+                            <span>Samara</span>
+                        </li>
+                        <li class="cv__contacts-row cv__contacts-phone">
+                            <a href="tel:+79198080841">+79198080841</a>
+                        </li>
+                        <li class="cv__contacts-row cv__contacts-mail">
+                            <a href="mailto:ivan.schunyaev@gmail.com">ivan.schunyaev@gmail.com</a>
+                        </li>
+                        <li class="cv__contacts-row cv__contacts-gh">
+                            <a href="https://github.com/SteveGerr" target="_blank" rel="noopener noreferrer">Github</a>
+                        </li>
+                        <li class="cv__contacts-row cv__contacts-in">
+                            <a href="https://www.linkedin.com/in/ivan-schunyaev/?locale=en_US" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                        </li>
+                    </ul>
                 </section>
                 <section class="cv__contacts-row cv__skills">
                     <h4>Skills</h4>
@@ -118,9 +120,9 @@
                 <code>
                     <span class="cv__code-example_blue">function</span> isIsogram(str){
                         //...
-                        <span class="cv__code-example_blue">let</span> lcs = str.toLowerCase(); <span class="cv__code-example_grey">// dermatoglyphics</span>
-                        <span class="cv__code-example_blue">let</span> arrStr = lcs.split('') <span class="cv__code-example_grey">// ['d', 'e', 'r', 'm','a', 't', 'o', 'g','l', 'y', 'p', 'h','i', 'c', 's']</span>
-                        arrStr.sort() <span class="cv__code-example_grey">// ['a', 'c', 'd', 'e','g', 'h', 'i', 'l','m', 'o', 'p', 'r','s', 't', 'y']</span>
+                        <span class="cv__code-example_blue">let</span> lcs = str.toLowerCase();
+                        <span class="cv__code-example_blue">let</span> arrStr = lcs.split('')
+                        arrStr.sort()
 
 
                         <span class="cv__code-example_lilac">for</span> (<span class="cv__code-example_blue">let</span> i = 0; i <span>&lt;</span>arrStr.length; i++) {
@@ -136,9 +138,9 @@
         </section>
 
         <footer>
-            <a href="" class="cv__rsschool-link"><img width="80" height="30" src="./src/pictures/icons/rs_school_js.svg" alt="Rsschool icon"></a>
+            <a href="https://rs.school/js/" class="cv__rsschool-link"><img width="80" height="30" src="./src/pictures/icons/rs_school_js.svg" alt="Rsschool icon"></a>
             <p title="September 2021">2021</p>
-            <a href="" class="cv__gh-link"><img width="30" height="30" src="./src/pictures/icons/github.svg" alt=""></a>
+            <a href="https://github.com/SteveGerr" class="cv__gh-link"><img width="30" height="30" src="./src/pictures/icons/github.svg" alt=""></a>
         </footer>
     </div>
 </body>
