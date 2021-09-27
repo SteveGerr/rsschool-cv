@@ -1,1 +1,1 @@
-https://SteveGerr.github.io/rsschool-cv/index.html
+https://SteveGerr.github.io/rsschool/index.html
