@@ -117,6 +117,11 @@
     background: #FFFFFF;
 }
 
+.welcome__slider-preview-items:hover {
+    cursor: pointer;
+    background: #9D8665;
+}
+
 .welcome__slider-preview-items.active {
     background: #D2B183;
 }
