@@ -190,6 +190,16 @@
     flex-direction: column;
     min-width: 440px;
     margin: 38px 0;
+    cursor: pointer;
+}
+
+.visiting__gallery-card .visiting__gallery-card-hr {
+    transition: all .5s;
+}
+
+.visiting__gallery-card:hover .visiting__gallery-card-hr {
+    width: 100%;
+    transition: all .3s;
 }
 
 .visiting__gallery-card-img {
