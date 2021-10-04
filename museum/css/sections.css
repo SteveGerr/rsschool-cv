@@ -22,6 +22,13 @@
     letter-spacing: 5px;
     text-transform: uppercase;
 }
+
+@media (max-width: 1919px) {
+    .section-title {
+        font-size: 50px;
+    }
+}
+
 .section-title.dark {
     color: #FFFFFF;
 }
@@ -37,6 +44,15 @@
     background-repeat: no-repeat;
 }
 
+@media (max-width: 1919px) {
+    .welcome__container {
+        min-height: 635px;
+        background-position: right 20px top;
+        background-size: calc(100% - 340px);
+    }
+
+}
+
 .welcome h1 {
     margin: 150px 0 25px 0;
     text-align: left;
@@ -49,6 +65,16 @@
     letter-spacing: 5px;
 }
 
+@media (max-width: 1919px) {
+    .welcome h1 {
+        font-size: 50px;
+    }
+
+    .welcome p {
+        font-size: 24px;
+    }
+}
+
 .welcome p, h1, a {
     color: #FFFFFF;
 }
@@ -59,6 +85,13 @@
     font-weight: 300;
     font-size: 28px;
     letter-spacing: 2px;
+}
+
+@media (max-width: 1919px) {
+    .welcome p {
+        margin: 0 0 50px 0;
+        font-size: 24px;
+    }
 }
 
 .welcome a {
@@ -117,6 +150,11 @@
     background: #FFFFFF;
 }
 
+.welcome__slider-preview-items:hover {
+    cursor: pointer;
+    background: #9D8665;
+}
+
 .welcome__slider-preview-items.active {
     background: #D2B183;
 }
@@ -153,7 +191,20 @@
     border-radius: 10px;
     text-decoration: none;
 }
-.welcome__btn-discover:hover {
+
+@media (max-width: 1919px) {
+    .welcome__btn-discover {
+        width: 300px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+}
+
+
+.welcome__btn-discover:hover,
+.tickets__buy:hover {
+    cursor: pointer;
     background: #9D8665;
 }
 
@@ -185,6 +236,16 @@
     flex-direction: column;
     min-width: 440px;
     margin: 38px 0;
+    cursor: pointer;
+}
+
+.visiting__gallery-card .visiting__gallery-card-hr {
+    transition: all .5s;
+}
+
+.visiting__gallery-card:hover .visiting__gallery-card-hr {
+    width: 100%;
+    transition: all .3s;
 }
 
 .visiting__gallery-card-img {
@@ -205,12 +266,6 @@
     letter-spacing: 5px;
     text-transform: uppercase;
 }
-.visiting__gallery-card-hr {
-    width: 300px;
-    height: 2px;
-    margin: 9px 0;
-    background-color: #710707;
-}
 
 .visiting__gallery-card-descr p {
     font-family: Roboto;
@@ -218,6 +273,25 @@
     font-size: 22px;
     color: #0000008c;
 }
+
+@media (max-width: 1919px) {
+    .visiting__gallery-card-name {
+        font-size: 28px;
+    }
+
+    .visiting__gallery-card-descr p {
+        font-size: 20px;
+    }
+
+}
+
+.visiting__gallery-card-hr {
+    width: 300px;
+    height: 2px;
+    margin: 9px 0;
+    background-color: #710707;
+}
+
 
 /* picture-explore */
 .picture-explore__row {
@@ -235,6 +309,13 @@
     flex-direction: column;
     width: 100%;
     margin: 75px 0;
+}
+
+@media (max-width: 1919px) {
+    .picture-explore__col img {
+        max-width: 720px;
+        margin: 0 auto;
+    }
 }
 
 .picture-explore__col:nth-child(1) {
@@ -261,6 +342,24 @@
     color: #fff;
 }
 
+@media (max-width: 1919px) {
+    .picture-explore__descr p {
+        font-size: 20px;
+    }
+
+    .picture-explore__descr p br {
+        display: none;
+    }
+
+    .picture-explore__descr p:last-child {
+        display: none;
+    }
+
+    .picture-explore__col {
+        margin: 37px 0 60px 0;
+    }
+}
+
 .picture-explore__descr_yellow {
     color: #CAAA7D;
     ;
@@ -279,11 +378,27 @@
     margin: 0 0 70px 0;
 }
 
+@media (max-width: 1919px) {
+    .video header {
+        margin: 0 0 48px 0;
+    }
+
+    .video .container {
+        padding: 70px 20px 65px 20px;
+    }
+}
+
 .video p {
     font-family: "Roboto";
     font-size: 22px;
     font-weight: 300;
     line-height: 38px;
+}
+
+@media (max-width: 1919px) {
+    .video p {
+        display: none;
+    }
 }
 
 .video__player {
@@ -507,6 +622,17 @@
     margin-bottom: 75px;
 }
 
+@media (max-width: 1919px) {
+    .tickets {
+        padding-top: 70px;
+    }
+
+    .tickets .hr {
+        margin-top: 30px;
+        margin-bottom: 42px;
+    }
+}
+
 @media (max-width: 1024px) {
     .tickets__form-col:nth-child(1) {
         display: none;
@@ -689,6 +815,10 @@
     border: none;
 }
 
+.tickets__buy:hover {
+
+}
+
 .contacts {
     padding: 90px 0 74px 0;
 }
@@ -698,6 +828,16 @@
     font-family: Roboto;
     font-size: 28px;
     font-weight: 500;
+}
+
+@media (max-width: 1919px) {
+    .contacts h4 {
+        font-size: 24px;
+    }
+    .contacts .hr {
+        margin-top: 30px;
+        margin-bottom: 42px;
+    }
 }
 
 .contacts p {
@@ -722,4 +862,35 @@
 
 .contacts__map {
     margin: 0 0 0 40px;
+}
+
+.contacts__map img {
+    width: 100%;
+    object-fit: contain;
+}
+@media (max-width: 1919px) {
+    .contacts__map {
+        margin: 0 0 0 23px;
+    }
+
+    .contacts__map img {
+       max-width: 695px;
+    }
+
+    .contacts__info {
+        max-width: 265px;
+        min-width: 230px;
+    }
+
+    .contacts__container {
+        margin: 58px 0 0 0;
+    }
+
+    .contacts p {
+        font-size: 20px;
+    }
+
+    .contacts h4 {
+        margin: 0 0 34px 0;
+    }
 }

@@ -66,3 +66,12 @@ footer {
     width: 48px;
     height: 48px;
 }
+
+@media (max-width: 1919px) {
+    .footer__social {
+        width: 40%;
+    }
+    .empty.footer__col {
+        display: none;
+    }
+}
